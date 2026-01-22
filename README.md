@@ -46,16 +46,17 @@ Final Answer
 
 ## 🧰 Tech Stack
 
-| Component | Technology |
-|----------|------------|
-| Programming Language | Python 3.10+ |
-| PDF Processing | pdfplumber |
-| Embeddings | sentence-transformers (multilingual) |
-| Vector Search | FAISS (CPU) |
-| Generator | Extractive (context-grounded) |
-| UI | Streamlit |
-| Deployment | Render |
-| Hardware | CPU only |
+| Component            | Technology                           |
+| -------------------- | ------------------------------------ |
+| Programming Language | Python 3.10+                         |
+| PDF Processing       | pdfplumber                           |
+| Embeddings           | sentence-transformers (multilingual) |
+| Vector Search        | FAISS (CPU)                          |
+| Generator            | Extractive (context-grounded)        |
+| UI                   | Streamlit                            |
+| Deployment           | Render                               |
+| Hardware             | CPU only                             |
+
 
 
 ---
