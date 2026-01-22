@@ -60,7 +60,6 @@ Final Answer
 
 ---
 
-```markdown
 ## 📁 Project Structure
 
 ```text
