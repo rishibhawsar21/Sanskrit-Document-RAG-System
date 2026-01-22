@@ -22,22 +22,23 @@ The objective of this project is to:
 
 ## 🏗️ System Architecture
 
+```text
 Sanskrit PDF / Text
-↓
+        ↓
 Document Loader (pdfplumber)
-↓
+        ↓
 Text Cleaning & Chunking
-↓
+        ↓
 Embedding Generation (Sentence Transformers)
-↓
+        ↓
 Vector Indexing (FAISS – CPU)
-↓
+        ↓
 Query Embedding
-↓
+        ↓
 Top-K Context Retrieval
-↓
+        ↓
 Lightweight Generator (Extractive RAG)
-↓
+        ↓
 Final Answer
 
 ---
@@ -57,32 +58,29 @@ Final Answer
 
 --
 
+```markdown
 ## 📁 Project Structure
 
+```text
 Sanskrit-Document-RAG-System/
-│
-├── app.py # Streamlit UI
-│
+├── app.py                     # Streamlit UI
 ├── code/
-│ ├── __init__.py
-│ ├── embed_store.py # Build FAISS index
-│ ├── retriever.py # Context retrieval
-│ ├── generator.py # Lightweight generator
-│ ├── load_documents.py # PDF/Text loader
-│ ├── preprocess.py # Cleaning & chunking
-│ └── main.py # CLI entry point
-│
+│   ├── __init__.py
+│   ├── embed_store.py          # Build FAISS index
+│   ├── retriever.py            # Context retrieval
+│   ├── generator.py            # Lightweight generator
+│   ├── load_documents.py       # PDF/Text loader
+│   ├── preprocess.py           # Cleaning & chunking
+│   └── main.py                 # CLI entry point
 ├── Data/
-│ └── Sanskrit_docs.pdf # Provided Sanskrit document
-│
+│   └── Sanskrit_docs.pdf       # Provided Sanskrit document
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-│
 └── (Generated locally)
-├── faiss.index # Vector index (not pushed)
-└── chunks.txt # Chunk mapping (not pushed)
+    ├── faiss.index             # Vector index (not pushed)
+    └── chunks.txt              # Chunk mapping (not pushed)
 
 ## ▶️ How to Run
 
