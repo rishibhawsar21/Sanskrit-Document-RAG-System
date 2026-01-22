@@ -43,10 +43,11 @@ Final Answer
 
 ---
 
+
 ## 🧰 Tech Stack
 
 | Component | Technology |
-|--------|-----------|
+|----------|------------|
 | Programming Language | Python 3.10+ |
 | PDF Processing | pdfplumber |
 | Embeddings | sentence-transformers (multilingual) |
@@ -56,7 +57,8 @@ Final Answer
 | Deployment | Render |
 | Hardware | CPU only |
 
---
+
+---
 
 ```markdown
 ## 📁 Project Structure
