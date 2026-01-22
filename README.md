@@ -55,7 +55,7 @@ Final Answer
 | Deployment | Render |
 | Hardware | CPU only |
 
----
+--
 
 ## 📁 Project Structure
 
@@ -64,7 +64,7 @@ Sanskrit-Document-RAG-System/
 ├── app.py # Streamlit UI
 │
 ├── code/
-│ ├── init.py
+│ ├── __init__.py
 │ ├── embed_store.py # Build FAISS index
 │ ├── retriever.py # Context retrieval
 │ ├── generator.py # Lightweight generator
@@ -83,7 +83,6 @@ Sanskrit-Document-RAG-System/
 └── (Generated locally)
 ├── faiss.index # Vector index (not pushed)
 └── chunks.txt # Chunk mapping (not pushed)
---
 
 ## ▶️ How to Run
 
