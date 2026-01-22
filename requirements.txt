@@ -1,0 +1,8 @@
+sentence-transformers
+faiss-cpu
+llama-cpp-python==0.2.26
+pypdf
+numpy
+pdfplumber
+ctransformers
+streamlit
